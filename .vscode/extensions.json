@@ -1,0 +1,53 @@
+{
+    "recommendations": [
+        "shan.code-settings-sync",
+        "ritwickdey.liveserver",
+        "visualstudioexptteam.vscodeintellicode",
+        "alex-pattison.theme-cobalt3",
+        "dbaeumer.vscode-eslint",
+        "eg2.vscode-npm-script",
+        "christian-kohler.npm-intellisense",
+        "leizongmin.node-module-intellisense",
+        "eseom.nunjucks-template",
+        "akamud.vscode-javascript-snippet-pack",
+        "whtouche.vscode-js-console-utils",
+        "xabikos.javascriptsnippets",
+        "felixfbecker.php-debug",
+        "felixfbecker.php-pack",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-complete-tag",
+        "formulahendry.auto-rename-tag",
+        "msjsdiag.debugger-for-chrome",
+        "pkief.material-icon-theme",
+        "tabnine.tabnine-vscode",
+        "abusaidm.html-snippets",
+        "zignd.html-css-class-completion",
+        "anderseandersen.html-class-suggestions",
+        "thekalinga.bootstrap4-vscode",
+        "hansuxdev.bootstrap5-snippets",
+        "primafuture.open-php-html-js-in-browser",
+        "esbenp.prettier-vscode",
+        "wallabyjs.quokka-vscode",
+        "formulahendry.terminal",
+        "burkeholland.simple-react-snippets",
+        "johnpapa.angular2",
+        "christian-kohler.path-intellisense",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "goulinkh.vanilla-framework",
+        "hollowtree.vue-snippets",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "infeng.vscode-react-typescript",
+        "svipas.prettier-plus",
+        "runningcoder.react-snippets",
+        "tobermory.es6-string-html",
+<<<<<<< Updated upstream
+        "prograhammer.tslint-vue",
+        "wcwhitehead.bootstrap-3-snippets"
+=======
+        "wcwhitehead.bootstrap-3-snippets",
+        "hookyqr.beautify",
+        "angular.ng-template"
+>>>>>>> Stashed changes
+    ]
+}
