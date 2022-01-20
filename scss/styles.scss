@@ -180,6 +180,11 @@ input{
     margin-right: var(--mb-1);
 }
 
+.grid{
+    display: grid;
+    gap: 1.5rem;    
+}
+
 /*=============== HEADER ===============*/
 .header{
     width: 100%;
@@ -425,39 +430,6 @@ input{
     }
 }
 
-/*=============== DISCOVER ===============*/
-.discover{
-    &__card{
-        position: relative;
-        width: 200px;
-        overflow: var(--img-hidden);
-    }
-    &__data{
-        position: absolute;
-        bottom: 1.5rem;
-        left: 1rem;
-    }
-    &__title,
-    &__description{
-        color: var(--white-color);
-    }
-    &__title{
-        font-size: var(--h3-font-size);
-        margin-bottom: var(--mb-0-25);
-    }
-    &__description{
-        display: block;
-        font-size: var(--smaller-font-size);
-    }
-    &__img{
-        transition: var(--img-transition);
-
-        &:hover{
-            transform: var(--img-scale);
-        }
-    }
-}
-
 .swiper-container-3d .swiper-slide-shadow-left,
 .swiper-container-3d .swiper-slide-shadow-right{
     background-image: none;
@@ -498,11 +470,7 @@ input{
         flex-direction: column;
         justify-content: space-between;
         padding: .75rem .75rem 1rem;
-    }
-    &__rating{
-        align-self: flex-end;
-        display: flex;
-        align-items: center;
+    }    
 
         &-icon{
             font-size: .75rem;
@@ -511,11 +479,7 @@ input{
         &-number{
             font-size: var(--small-font-size);
         }
-    }
-    &__subtitle,
-    &__price{
-        display: block;
-    }
+    }    
     &__title{
         font-size: var(--h3-font-size);
         margin-bottom: var(--mb-0-25);
@@ -751,17 +715,8 @@ input{
         &__description{
             margin-bottom: var(--mb-2);
         }
-    }
+    }    
 
-    .discover{
-        &__container{
-            width: 610px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-
-    .discover__container,
     .place__container{
         padding-top: 2rem;
     }  
@@ -772,7 +727,6 @@ input{
             justify-content: space-between;
         }
     }
-
 }
 
 /* For large devices */
@@ -810,23 +764,7 @@ input{
             }
         }
     }
-
-    .discover{
-        &__card{
-            width: 237px;
-        }
-        &__container{
-            width: 700px;
-        }
-        &__data{
-            left: 1.5rem;
-            bottom: 2rem;
-        }
-        &__title{
-            font-size: var(--h2-font-size);
-        }
-    }   
-
+    
     .place{
         &__container{
             gap: 3rem 2rem;

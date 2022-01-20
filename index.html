@@ -19,7 +19,7 @@
     </head>
     <body>
         <header class="header" id="header">
-            <nav class="nav container">
+            <nav class="nav container" id="navbar">
                 <a href="#" class="nav__logo">
                     <img src="images/logo-image.jpg" alt="logo-image">
                 </a>
@@ -27,16 +27,16 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
+                            <a href="#welcome-section" class="nav__link active-link">Home</a>
                         </li>
                         <li class="nav__item">
                             <a href="#about" class="nav__link">About</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#discover" class="nav__link">Discover</a>
-                        </li>
+                        </li>                        
                         <li class="nav__item">
                             <a href="#projects" class="nav__link">Projects</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
                         </li>
                     </ul>
 
@@ -57,7 +57,7 @@
 
         <main class="main">
             <!--==================== HOME ====================-->
-            <section class="home" id="home">
+            <section class="home" id="welcome-section">
                 <img src="images/background-image.jpg" alt="" class="home__img">
 
                 <div class="home__container container grid">
@@ -68,7 +68,7 @@
 
                     </div>
 
-                    <div class="home__social">
+                    <!-- <div class="home__social">
                         <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
                             <i class="ri-facebook-box-fill"></i>
                         </a>
@@ -78,9 +78,9 @@
                         <a href="https://twitter.com/" target="_blank" class="home__social-link">
                             <i class="ri-twitter-fill"></i>
                         </a>
-                    </div>
+                    </div> -->
 
-                    <div class="home__info">
+                    <!-- <div class="home__info">
                         <div>
                             <span class="home__info-title">5 best places to visit</span>
                             <a href="" class="button button--flex button--link home__info-button">
@@ -91,7 +91,7 @@
                         <div class="home__info-overlay">
                             <img src="images/home2.jpg" alt="" class="home__info-img">
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </section>
 
@@ -118,167 +118,67 @@
                     </div>
                 </div>
             </section>
-            
-            <!--==================== DISCOVER ====================-->
-            <section class="discover section" id="discover">
-                <h2 class="section__title">Discover the most <br> attractive places</h2>
-                
-                <div class="discover__container container swiper-container">
-                    <div class="swiper-wrapper">
-                        <!--==================== DISCOVER 1 ====================-->
-                        <div class="discover__card swiper-slide">
-                            <img src="images/discover1.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Bali</h2>
-                                <span class="discover__description">24 tours available</span>
-                            </div>
-                        </div>
-
-                        <!--==================== DISCOVER 2 ====================-->
-                        <div class="discover__card swiper-slide">
-                            <img src="images/discover2.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Hawaii</h2>
-                                <span class="discover__description">15 tours available</span>
-                            </div>
-                        </div>
-
-                        <!--==================== DISCOVER 3 ====================-->
-                        <div class="discover__card swiper-slide">
-                            <img src="images/discover3.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Hvar</h2>
-                                <span class="discover__description">18 tours available</span>
-                            </div>
-                        </div>
-
-                        <!--==================== DISCOVER 4 ====================-->
-                        <div class="discover__card swiper-slide">
-                            <img src="images/discover4.jpg" alt="" class="discover__img">
-                            <div class="discover__data">
-                                <h2 class="discover__title">Whitehaven</h2>
-                                <span class="discover__description">32 tours available</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <!--==================== PLACES ====================-->
             <section class="place section" id="projects">
-                <h2 class="section__title">Choose Your Place</h2>
+                <h2 class="section__title">Projects</h2>
 
                 <div class="place__container container grid">
-                    <!--==================== PLACES CARD 1 ====================-->
-                    <div class="place__card">
-                        <img src="images/place1.jpg" alt="" class="place__img">
+                    <!--==================== PROJECT CARD 1 ====================-->
+                    <div class="place__card project-tile">
+                        <img src="images/tribute-page.png" alt="" class="place__img">
                         
                         <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4,8</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Bali</h3>
-                                <span class="place__subtitle">Indonesia</span>
-                                <span class="place__price">$2499</span>
-                            </div>
+                            <h3 class="place__title">Tribute Page</h3>
                         </div>
-
                         <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
+                            <a href="https://galon-js.github.io/01.-Tribute-Page/"><i class="ri-arrow-right-line"></i></a>                            
                         </button>
                     </div>
 
-                    <!--==================== PLACES CARD 2 ====================-->
-                    <div class="place__card">
-                        <img src="images/place2.jpg" alt="" class="place__img">
+                     <!--==================== PROJECT CARD 2 ====================-->
+                     <div class="place__card project-tile">
+                        <img src="images/survey-form.png" alt="" class="place__img">
                         
                         <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">5,0</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Bora Bora</h3>
-                                <span class="place__subtitle">Polinesia</span>
-                                <span class="place__price">$1599</span>
-                            </div>
+                            <h3 class="place__title">Survey Form</h3>
                         </div>
-
                         <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
+                            <a href="https://galon-js.github.io/02.-Survey-Form/"><i class="ri-arrow-right-line"></i></a>                            
                         </button>
                     </div>
 
-                    <!--==================== PLACES CARD 3 ====================-->
-                    <div class="place__card">
-                        <img src="images/place3.jpg" alt="" class="place__img">
+                    <!--==================== PROJECT CARD 3 ====================-->
+                    <div class="place__card project-tile">
+                        <img src="images/product-landing-page.png" alt="" class="place__img">
                         
                         <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4,9</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Hawaii</h3>
-                                <span class="place__subtitle">EE.UU</span>
-                                <span class="place__price">$3499</span>
-                            </div>
+                            <h3 class="place__title">Product Landing Page</h3>
                         </div>
-
                         <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
+                            <a href="https://galon-js.github.io/03.-Product-Landing-Page/"><i class="ri-arrow-right-line"></i></a>                            
                         </button>
-                    </div>
+                    </div>                   
 
-                    <!--==================== PLACES CARD 4 ====================-->
-                    <div class="place__card">
-                        <img src="images/place4.jpg" alt="" class="place__img">
+                    <!--==================== PROJECT CARD 4 ====================-->
+                    <div class="place__card project-tile">
+                        <img src="images/technical-documentation-page.png" alt="" class="place__img">
                         
                         <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4,8</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Whitehaven</h3>
-                                <span class="place__subtitle">Australia</span>
-                                <span class="place__price">$2499</span>
-                            </div>
+                            <h3 class="place__title">Technical Documentation Page</h3>
                         </div>
-
                         <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
+                            <a href="https://galon-js.github.io/04.-Technical-Documentation-Page/"><i class="ri-arrow-right-line"></i></a>
+                            
                         </button>
-                    </div>
 
-                    <!--==================== PLACES CARD 5 ====================-->
-                    <div class="place__card">
-                        <img src="images/place5.jpg" alt="" class="place__img">
-                        
-                        <div class="place__content">
-                            <span class="place__rating">
-                                <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4,8</span>
-                            </span>
-
-                            <div class="place__data">
-                                <h3 class="place__title">Hvar</h3>
-                                <span class="place__subtitle">Croacia</span>
-                                <span class="place__price">$1999</span>
-                            </div>
-                        </div>
-
-                        <button class="button button--flex place__button">
-                            <i class="ri-arrow-right-line"></i>
-                        </button>
-                    </div>
+                    </div>                   
                 </div>
+            </section>
+
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="contact">
+                
             </section>
                             
         </main>

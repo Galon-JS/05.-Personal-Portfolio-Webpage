@@ -179,6 +179,12 @@ input {
   margin-right: var(--mb-1);
 }
 
+.grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 1.5rem;
+}
+
 /*=============== HEADER ===============*/
 .header {
   width: 100%;
@@ -595,10 +601,6 @@ input {
   font-size: var(--small-font-size);
 }
 
-.place__subtitle, .place__price {
-  display: block;
-}
-
 .place__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-25);
@@ -853,12 +855,6 @@ input {
   .about__description {
     margin-bottom: var(--mb-2);
   }
-  .discover__container {
-    width: 610px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .discover__container,
   .place__container {
     padding-top: 2rem;
   }
@@ -901,19 +897,6 @@ input {
   }
   .about__img-two {
     width: 290px;
-  }
-  .discover__card {
-    width: 237px;
-  }
-  .discover__container {
-    width: 700px;
-  }
-  .discover__data {
-    left: 1.5rem;
-    bottom: 2rem;
-  }
-  .discover__title {
-    font-size: var(--h2-font-size);
   }
   .place__container {
     gap: 3rem 2rem;
