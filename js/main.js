@@ -29,7 +29,6 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 function scrollHeader(){
     const header = document.getElementById('header')
@@ -38,57 +37,11 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
-/*==================== SWIPER DISCOVER ====================*/
-let swiper = new Swiper(".discover__container", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    loop: true,
-    spaceBetween: 32,
-    coverflowEffect: {
-        rotate: 0,
-    },
-})
-
-/*==================== VIDEO ====================*/
-const videoFile = document.getElementById('video-file'),
-      videoButton = document.getElementById('video-button'),
-      videoIcon = document.getElementById('video-icon')
-
-function playPause(){ 
-    if (videoFile.paused){
-        // Play video
-        videoFile.play()
-        // We change the icon
-        videoIcon.classList.add('ri-pause-line')
-        videoIcon.classList.remove('ri-play-line')
-    }
-    else {
-        // Pause video
-        videoFile.pause(); 
-        // We change the icon
-        videoIcon.classList.remove('ri-pause-line')
-        videoIcon.classList.add('ri-play-line')
-
-    }
-}
-videoButton.addEventListener('click', playPause)
-
-function finalVideo(){
-    // Video ends, icon change
-    videoIcon.classList.remove('ri-pause-line')
-    videoIcon.classList.add('ri-play-line')
-}
-// ended, when the video ends
-videoFile.addEventListener('ended', finalVideo)
-
-
 /*==================== SHOW SCROLL UP ====================*/ 
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');
-    // When the scroll is higher than 200 viewport height, add the show-scroll class to the a tag with the scroll-top class
-    if(this.scrollY >= 200) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
+    // When the scroll is higher than 100 viewport height, add the show-scroll class to the a tag with the scroll-top class
+    if(this.scrollY >= 100) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
 
@@ -114,33 +67,33 @@ window.addEventListener('scroll', scrollActive)
 
 /*==================== SCROLL REVEAL ANIMATION ====================*/
 const sr = ScrollReveal({
-    distance: '60px',
+    distance: '600px',
     duration: 2800,
     // reset: true,
 })
 
-
-sr.reveal(`.home__data, .home__social-link, .home__info,
-           .discover__container,
-           .experience__data, .experience__overlay,
-           .place__card,
-           .sponsor__content,
-           .footer__data, .footer__rights`,{
+sr.reveal(`.home__data`,{
     origin: 'top',
     interval: 100,
 })
 
-sr.reveal(`.about__data, 
-           .video__description,
-           .subscribe__description`,{
-    origin: 'left',
+sr.reveal(`.projects__card`, {
+    origin: 'right',
+    interval: 500
 })
 
-sr.reveal(`.about__img-overlay, 
-           .video__content,
-           .subscribe__form`,{
-    origin: 'right',
-    interval: 100,
+sr.reveal(`.contact__link`, {
+    origin: 'left',
+    interval: 500
+})
+
+sr.reveal(`.footer__flex`, {
+    origin: 'bottom',
+    interval: 500
+})
+
+sr.reveal(`.about__data`,{
+    origin: 'left',
 })
 
 /*==================== DARK LIGHT THEME ====================*/ 

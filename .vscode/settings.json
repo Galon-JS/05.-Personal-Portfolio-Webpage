@@ -4,7 +4,7 @@
       "git.confirmSync": false,
       "tabnine.experimentalAutoImports": true,
       "workbench.colorTheme": "codeSTACKr Theme",
-      "window.zoomLevel": -1,
+      "window.zoomLevel": -2,
       "liveServer.settings.donotShowInfoMsg": true,
       "sync.gist": "bc06279feddce221b38c5321f2c18fc5",
       "sync.autoDownload": true,
@@ -98,4 +98,7 @@
       ],   
       "liveSassCompile.settings.generateMap": false,
       "prettier.tabWidth": 4,
+      "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+      },
     }

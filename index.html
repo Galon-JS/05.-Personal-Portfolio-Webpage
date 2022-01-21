@@ -14,15 +14,14 @@
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <title>Personal Portfolio Webpage</title>
+        <title>Responsive Website Travel Galon-JS</title>
     </head>
     <body>
         <header class="header" id="header">
             <nav class="nav container" id="navbar">
-                <a href="#" class="nav__logo">
-                    <img src="images/logo-image.jpg" alt="logo-image">
-                </a>
+                <a href="#" class="nav__logo"><strong>Galon-JS</strong></a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
@@ -31,13 +30,14 @@
                         </li>
                         <li class="nav__item">
                             <a href="#about" class="nav__link">About</a>
-                        </li>                        
+                        </li>
                         <li class="nav__item">
                             <a href="#projects" class="nav__link">Projects</a>
-                        </li>
+                        </li>                        
                         <li class="nav__item">
                             <a href="#contact" class="nav__link">Contact</a>
                         </li>
+                        
                     </ul>
 
                     <div class="nav__dark">
@@ -62,200 +62,114 @@
 
                 <div class="home__container container grid">
                     <div class="home__data">
-                        <span class="home__data-subtitle">Discover your place</span>
-                        <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1>
-                        <a href="#" class="button">Explore</a>
-
+                        <h1 class="home__data-title">Hi there! <br> I'm <b>Dragan Milosev</b> <br> A Web Developer</h1>
+                        <a href="#about" class="button">More about me</a>
                     </div>
-
-                    <!-- <div class="home__social">
-                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
-                            <i class="ri-facebook-box-fill"></i>
-                        </a>
-                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
-                            <i class="ri-instagram-fill"></i>
-                        </a>
-                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
-                            <i class="ri-twitter-fill"></i>
-                        </a>
-                    </div> -->
-
-                    <!-- <div class="home__info">
-                        <div>
-                            <span class="home__info-title">5 best places to visit</span>
-                            <a href="" class="button button--flex button--link home__info-button">
-                                More <i class="ri-arrow-right-line"></i>
-                            </a>
-                        </div>
-
-                        <div class="home__info-overlay">
-                            <img src="images/home2.jpg" alt="" class="home__info-img">
-                        </div>
-                    </div> -->
                 </div>
             </section>
-
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
-                <div class="about__container container grid">
+                <div class="about__container container">
                     <div class="about__data">
-                        <h2 class="section__title about__title">More Information <br> About The Best Beaches</h2>
-                        <p class="about__description">You can find the most beautiful and pleasant places at the best 
-                            prices with special discounts, you choose the place we will guide you all the way to wait, get your 
-                            place now.
+                        <p class="">More Information About Me</p>
+                        <h2 class="section__title about__title">Creative Independent Web Developer</h2>
+                        <p class="about__description">You can find the most beautiful and pleasant projects. You choose the projects we will guide you all the way to wait, get your 
+                            projects now.
                         </p>
-                        <a href="#" class="button">Reserve a place</a>
-                    </div>
-
-                    <div class="about__img">
-                        <div class="about__img-overlay">
-                            <img src="images/about1.jpg" alt="" class="about__img-one">
-                        </div>
-
-                        <div class="about__img-overlay">
-                            <img src="images/about2.jpg" alt="" class="about__img-two">
-                        </div>
-                    </div>
+                        <a href="#" class="button">Reserve a projects</a>
+                    </div>                    
                 </div>
             </section>
-
-            <!--==================== PLACES ====================-->
-            <section class="place section" id="projects">
+            
+            <!--==================== PROJECTS ====================-->
+            <section class="projects section" id="projects">
                 <h2 class="section__title">Projects</h2>
 
-                <div class="place__container container grid">
-                    <!--==================== PROJECT CARD 1 ====================-->
-                    <div class="place__card project-tile">
-                        <img src="images/tribute-page.png" alt="" class="place__img">
+                <div class="projects__container container flex">
+                    <!--==================== PROJECTS CARD 1 ====================-->
+                    <div class="projects__card project-tile">
+                        <img src="images/tribute-page.png" alt="" class="projects__img">
                         
-                        <div class="place__content">
-                            <h3 class="place__title">Tribute Page</h3>
+                        <div class="projects__content">
+                            <h3 class="projects__title">Tribute Page</h3>
                         </div>
-                        <button class="button button--flex place__button">
-                            <a href="https://galon-js.github.io/01.-Tribute-Page/"><i class="ri-arrow-right-line"></i></a>                            
+
+                        <button class="button button--flex projects__button">
+                            <a href="https://galon-js.github.io/01.-Tribute-Page/"><i class="ri-arrow-right-line"></i></a>
                         </button>
                     </div>
 
-                     <!--==================== PROJECT CARD 2 ====================-->
-                     <div class="place__card project-tile">
-                        <img src="images/survey-form.png" alt="" class="place__img">
+                    <!--==================== PROJECTS CARD 2 ====================-->
+                    <div class="projects__card project-tile">
+                        <img src="images/survey-form.png" alt="" class="projects__img">
                         
-                        <div class="place__content">
-                            <h3 class="place__title">Survey Form</h3>
+                        <div class="projects__content">
+                            <h3 class="projects__title">Survey Form</h3>
                         </div>
-                        <button class="button button--flex place__button">
-                            <a href="https://galon-js.github.io/02.-Survey-Form/"><i class="ri-arrow-right-line"></i></a>                            
+                        
+                        <button class="button button--flex projects__button">
+                            <a href="https://galon-js.github.io/02.-Survey-Form/"><i class="ri-arrow-right-line"></i></a>
                         </button>
                     </div>
 
-                    <!--==================== PROJECT CARD 3 ====================-->
-                    <div class="place__card project-tile">
-                        <img src="images/product-landing-page.png" alt="" class="place__img">
+                    <!--==================== PROJECTS CARD 3 ====================-->
+                    <div class="projects__card project-tile">
+                        <img src="images/product-landing-page.png" alt="" class="projects__img">
                         
-                        <div class="place__content">
-                            <h3 class="place__title">Product Landing Page</h3>
+                        <div class="projects__content">
+                            <h3 class="projects__title">Product Landing Page</h3>
                         </div>
-                        <button class="button button--flex place__button">
-                            <a href="https://galon-js.github.io/03.-Product-Landing-Page/"><i class="ri-arrow-right-line"></i></a>                            
-                        </button>
-                    </div>                   
 
-                    <!--==================== PROJECT CARD 4 ====================-->
-                    <div class="place__card project-tile">
-                        <img src="images/technical-documentation-page.png" alt="" class="place__img">
+                        <button class="button button--flex projects__button">
+                            <a href="https://galon-js.github.io/03.-Product-Landing-Page/"><i class="ri-arrow-right-line"></i></a>
+                        </button>
+                    </div>
+
+                    <!--==================== PROJECTS CARD 4 ====================-->
+                    <div class="projects__card project-tile">
+                        <img src="images/technical-documentation-page.png" alt="" class="projects__img">
                         
-                        <div class="place__content">
-                            <h3 class="place__title">Technical Documentation Page</h3>
-                        </div>
-                        <button class="button button--flex place__button">
+                        <div class="projects__content">
+                            <h3 class="projects__title">Technical Documentation Page</h3>
+                        </div>                        
+                        <button class="button button--flex projects__button">
                             <a href="https://galon-js.github.io/04.-Technical-Documentation-Page/"><i class="ri-arrow-right-line"></i></a>
-                            
                         </button>
+                    </div>
+                </div>                    
+            </section>
 
-                    </div>                   
+            <!--==================== CONTACT ====================-->
+            <section class="contact section" id="contact">
+                <div class="contact__container container">
+                    <h2 class="contact__title">Contact Me</h2>
+                    <p class="contact__description">Let's work together...</p>
+                    <div class="contact__links flex">
+                        <div class="contact__link">
+                            <a href="https://www.freecodecamp.org/milosevdragan1988" target="_blank" id="profile-link" class="contact__details fa fa-free-code-camp"><br>
+                                <span>freeCodeCamp</span>
+                            </a>
+                        </div>
+                        <div class="contact__link">
+                            <a href="https://github.com/Galon-JS" target="_blank" id="profile-link" class="contact__details fa fa-github-square"><br>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                        <div class="contact__link">
+                            <a href="https://www.facebook.com/milosev.dragan/" target="_blank" id="profile-link" class="contact__details fa fa-facebook-square"><br>
+                                <span>Facebook</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </section>
-
-            <!--==================== DISCOVER ====================-->
-            <section class="discover section" id="contact">
-                
-            </section>
-                            
+            </section>          
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer section">
-            <div class="footer__container container">
-                <div class="footer__content">
-                    <!-- <div class="footer__data">
-                        <h3 class="footer__title">Travel</h3>
-                        <p class="footer__description">Travel you choose the <br> destination, 
-                            we offer you the <br> experience.
-                        </p>
-                        <div>
-                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
-                                <i class="ri-facebook-box-fill"></i>
-                            </a>
-                            <a href="https://twitter.com/" target="_blank" class="footer__social">
-                                <i class="ri-twitter-fill"></i>
-                            </a>
-                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
-                                <i class="ri-instagram-fill"></i>
-                            </a>
-                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
-                                <i class="ri-youtube-fill"></i>
-                            </a>
-                        </div>
-                    </div> -->
-    
-                    <!-- <div class="footer__data">
-                        <h3 class="footer__subtitle">About</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">About Us</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Features</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">New & Blog</a>
-                            </li>
-                        </ul>
-                    </div>
-    
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">Company</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Team</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Plan y Pricing</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Become a member</a>
-                            </li>
-                        </ul>
-                    </div>
-    
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">Support</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">FAQs</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Support Center</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div> -->
-                </div>
-
+            <div class="footer__container container grid">
                 <div class="footer__flex">
-                    <p class="footer__copy">&copy; 2022 Dragan Milosev. All rigths reserved.</p>
+                    <p class="footer__copy">&copy; 2021 Galon-JS. All rigths reserved.</p>
                     <div class="footer__terms">
                         <a href="#" class="footer__terms-link">Terms & Agreements</a>
                         <a href="#" class="footer__terms-link">Privacy Policy</a>
@@ -276,13 +190,10 @@
         <script src="js/swiper-bundle.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
-        <script src="js/main.js"></script>
-
-        <!--=============== FUNCTION JS ===============-->
-        <script src="js/function.js"></script>
-
+        <script src="js/main.js"></script>      
+        
         <!--=============== freeCodeCamp JS ===============-->
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-        
+
     </body>
 </html>
