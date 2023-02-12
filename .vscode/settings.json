@@ -69,8 +69,8 @@
       "editor.parameterHints.enabled": false,
       "cloudcode.beta.enableApiBrowserV2": true,
       "cloudcode.beta.enableSkaffoldModules": true,
-      "sync.removeExtensions": false,
-      "sync.syncExtensions": false,
+      "sync.removeExtensions": true,
+      "sync.syncExtensions": true,
       "typescript.tsdk": "node_modules\\typescript\\lib",
       "eslint.debug": true,
       "eslint.format.enable": true,
@@ -89,16 +89,23 @@
       "json.maxItemsComputed": 20000,
       "editor.wordWrapColumn": 120,
       "editor.minimap.maxColumn": 60,
-      "liveSassCompile.settings.formats": [
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": "/css"
-        }
-      ],   
-      "liveSassCompile.settings.generateMap": false,
+      
+      
+      
+      
+      
+      
+      
+      
       "prettier.tabWidth": 4,
       "[javascript]": {
         "editor.defaultFormatter": "HookyQR.beautify"
+      },
+      "remote.downloadExtensionsLocally": true,
+      "remote.extensionKind": {
+
+        "pub.name": [
+          "ui"
+        ]
       },
     }
